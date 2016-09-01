@@ -291,20 +291,65 @@ footer p{
 }
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 380px){
+
+	h1 {
+    	font-size: 26px;
+	}
+
+	.left{
+		text-align:left;
+	}
 
 	.container {
 	    max-width: 320px;
 	    width: 100%;
-	    overflow: auto;
+	    text-align: center;
+	    padding-bottom: 0px;
 	    padding-top: 10px;
-	    padding-bottom: 10px;
-	    padding-left: 5px;
-	    padding-right: 5px;
-	    margin: 0 auto;
-	    box-sizing: border-box;
 	}
 
+	.container .address{
+		width: 100%;
+	}
+
+	.texto-encolumnado p{
+		display: none;
+	}
+
+	.texto-encolumnado .show{
+		display: initial;
+		width: 100%;
+	}
+
+	article {
+    	width: 95%;
+    	float: none;
+    }
+
+	.container .socialmedia{
+		width: 100%;
+	}
+
+	.circulo {
+	    display: inline-block;
+	    text-align: center;
+	    /* padding: 0; */
+	    font-size: 20px;
+	    border-radius: 50%;
+	    border: 2px solid white;
+	    padding: 10px;
+	    height: 42px;
+	    width: 41px;
+	    box-sizing: border-box;
+	    color: white;
+	    transition: 1s;
+	    margin: 5px;
+	}
+
+	.texto-formulario-largo {
+    	height: 182px;
+	}
 
 	nav .logo{
 		float: none;
@@ -314,9 +359,9 @@ footer p{
 		color: white;*/
 		font-weight: 700;
 		width: 99%;
-		font-size: 15px;
+		font-size: 18px;
+		padding-bottom: 30px;
 	}
-<<<<<<< HEAD
 
 	nav ul{
 		float: none;
@@ -334,8 +379,19 @@ footer p{
 		font-size: 15px;
 		font-weight: 700;
 	}
+
+
+	footer div h3{
+		width: 100%;
+   		margin: 26px 0px;
+   		font-size: 20px;
+	}
+
+	footer div p{
+   		font-size: 15px;
+	}
+
+	footer ul li{
+		font-size: 10;
+	}
 }
-=======
-}
-/* Agregado por MVEGA*/
->>>>>>> 7eb1603aaf3a3d80650b7f58ea66da7ee18eb834
